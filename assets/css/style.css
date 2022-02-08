@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.5))), url("../img/eucalyptus.png"), -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.95)), to(rgba(255, 255, 255, 0.95))), url("../img/bg.jpg");
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../img/eucalyptus.png"), linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), url("../img/bg.jpg");
+  background-position: center, right top, center, center;
+  background-size: cover, 50%, cover, cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-family: 'Playfair Display';
+  font-size: 3rem;
+  color: #36542b;
+}
+
+.intro {
+  height: 100vh;
+}
+/*# sourceMappingURL=style.css.map */
