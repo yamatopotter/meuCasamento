@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- My css -->
@@ -48,9 +48,11 @@
         
             <div class="container">
 
+
                 <div class="col-12 col-lg-7">
 
-                    <h1>Olá, bem vindo a página do nosso casamento!</h1>
+                    <h1 class="mb-5">Olá, bem vindo a página do nosso casamento!</h1>
+                    <p>Criamos esse site para compartilhar com vocês os detalhes da organização do nosso  jantar de casamento. Estamos muito felizes em poder contar a sua presença no nosso dia!</p>
 
                 </div>
 
@@ -61,24 +63,31 @@
         <section class="about-us py-5">
 
             <div class="container">
+                
+                <div class="row">
 
-                <div class="col-12">
+                    <div class="col-12">
 
-                    <h1 class="mb-5">Sobre nós </h1>
+                        <h1 class="mb-5">Sobre nós </h1>
+    
+                    </div>
+    
+                    <div class="col-12 col-md-6">
+    
+                        <img src="./assets/img/us.png" alt="Foto do casal" class="couple-pic"> 
+    
+                    </div>
+    
+                    <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
+
+                            <p>Compartilhar a vida com quem amamos é uma dádiva. Em 2018 tivemos a sorte desse encontro, programado por algoritmos e pelo universo. E agora, exatos 4 anos depois resolvemos dar mais um passo juntos da nossa história de vida, parceria e amor, celebrando nossa união e agradecendo por esse encontro!</p>
+    
+                            <p>Sejam bem-vindos a mais esse momento especial!</p>
+
+                    </div>
 
                 </div>
 
-                <div class="col-12 col-md-6">
-
-                    <img src="" alt="Foto do casal">
-
-                </div>
-
-                <div class="col-12 col-md-6">
-
-                    Breve história do casal
-
-                </div>
             </div>
 
         </section>
@@ -115,25 +124,35 @@
 
             <div class="container">
 
-                <h1 class="mb-5">O Evento</h1>
+                <div class="row">
 
-                <div class="col-12 col-md-6">
+                    <h1 class="mb-5">O Evento</h1>
 
-                    <p>O evento será no restaurante de culinária japonesa Tochan, localizado em Itaguaí próximo a UPA.</p>
-
-                    <a href="" class="btn btn-success">Abrir no Google Maps</a>
-
-                </div>
-
-                <div class="col-12 col-md-6">
-
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8017.7530606712235!2d-43.77204681190881!3d-22.8706982602588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb4f8943bee51cf6!2sTochan%20Restaurante!5e0!3m2!1spt-BR!2sbr!4v1644546281015!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy"></iframe>
+                    <div class="col-12 col-md-6">
+    
+                        <p>O evento será no restaurante de culinária japonesa Tochan, localizado em Itaguaí próximo a UPA.</p>
+    
+                        <a href="https://www.google.com/maps/dir//Tochan+Restaurante+R.+Nossa+Sra.+das+Gra%C3%A7as,+35+-+Calif%C3%B3rnia+Itagua%C3%AD+-+RJ+23811-310/@-22.8641229,-43.7657915,15z/data=!4m5!4m4!1m0!1m2!1m1!1s0x9bf94c44fce3cd:0xb4f8943bee51cf6" class="btn btn-success">Abrir no Google Maps</a>
+    
+                    </div>
+    
+                    <div class="col-12 col-md-6">
+    
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8017.7530606712235!2d-43.77204681190881!3d-22.8706982602588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb4f8943bee51cf6!2sTochan%20Restaurante!5e0!3m2!1spt-BR!2sbr!4v1644546281015!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" class="map"></iframe>
+    
+                    </div>
 
                 </div>
 
             </div>
 
         </section>
+
+        <footer>
+            <div class="container text-center p-3">
+                Todos os direitos reservados aos noivos. Site desenvolvido com 
+            </div>
+        </footer>
     </main>
 </body>
 </html>

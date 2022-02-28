@@ -20,4 +20,18 @@ h1 {
 .intro {
   height: 100vh;
 }
+
+.couple-pic {
+  width: 100%;
+}
+
+.map {
+  width: 100%;
+  height: 350px;
+}
+
+footer {
+  background-color: #36542b;
+  color: rgba(255, 255, 255, 0.95);
+}
 /*# sourceMappingURL=style.css.map */
