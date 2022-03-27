@@ -1,41 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="./assets/css/bootstrap-icons.css">
     <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
     <!-- My css -->
     <link rel="stylesheet" href="./assets/css/style.css">
-    
+
     <title>Debora & Matheus</title>
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <h1 class="navbar-brand">Debora <span class="e-comercial">&</span> Matheus</h1>
+            <div class="container">
+                <a class="navbar-brand" href="#top">Debora <span class="e-comercial">&</span> Matheus</a>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                    aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarContent">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="">Reserva</a>
+                            <a class="nav-link" href="#about-us"><i class="bi bi-balloon-heart"></i></i>Sobre nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#reserva"><i class="bi bi-calendar-check"></i>Reserva</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="">Lista de Casamento</a>
+                            <a class="nav-link" href="#lista-casamento"><i class="bi bi-cart3"></i>Lista de
+                                Casamento</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="">Data</a>
+                            <a class="nav-link" href="#evento"><i class="bi bi-pin-map"></i>Local e Data</a>
                         </li>
                     </ul>
                 </div>
@@ -44,47 +53,16 @@
     </header>
 
     <main>
-        <section class="intro d-flex flex-column align-items-center justify-content-center">
-        
+        <section class="intro d-flex flex-column align-items-center justify-content-center" id="top">
+
             <div class="container">
 
 
                 <div class="col-12 col-lg-7">
 
                     <h1 class="mb-5">Olá, bem vindo a página do nosso casamento!</h1>
-                    <p>Criamos esse site para compartilhar com vocês os detalhes da organização do nosso  jantar de casamento. Estamos muito felizes em poder contar a sua presença no nosso dia!</p>
-
-                </div>
-
-            </div>
-        
-        </section>
-
-        <section class="about-us py-5">
-
-            <div class="container">
-                
-                <div class="row">
-
-                    <div class="col-12">
-
-                        <h1 class="mb-5">Sobre nós </h1>
-    
-                    </div>
-    
-                    <div class="col-12 col-md-6">
-    
-                        <img src="./assets/img/us.png" alt="Foto do casal" class="couple-pic"> 
-    
-                    </div>
-    
-                    <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
-
-                            <p>Compartilhar a vida com quem amamos é uma dádiva. Em 2018 tivemos a sorte desse encontro, programado por algoritmos e pelo universo. E agora, exatos 4 anos depois resolvemos dar mais um passo juntos da nossa história de vida, parceria e amor, celebrando nossa união e agradecendo por esse encontro!</p>
-    
-                            <p>Sejam bem-vindos a mais esse momento especial!</p>
-
-                    </div>
+                    <p>Criamos esse site para compartilhar com vocês os detalhes da organização do nosso jantar de
+                        casamento. Estamos muito felizes em poder contar a sua presença no nosso dia!</p>
 
                 </div>
 
@@ -92,54 +70,111 @@
 
         </section>
 
-        <section class="lista-de-casamento py-5">
+        <section class="about-us " id="about-us">
 
-            <div class="container">
-            
-                <h1 class="mb-5">Lista de casamento</h1>
-
-                <p>Opa! Da uma ajudinha para o casal ai!</p>
-
-                <a href="#" class="btn btn-success">Acessar a lista de casamento</a>
-
-            </div>
-            
-        </section>
-
-        <section class="reserva py-5">
-
-            <div class="container">
-
-                <h1 class="mb-5">Confirme sua presença</h1>
-
-                <p>Gostariamos de confirmar sua presença! Se incomoda de perder 5 minutos ou menos preenchendo o formulário?</p>
-
-                <a href="" class="btn btn-success">Confirmar Presença</a>
-
-            </div>
-            
-        </section>
-
-        <section class="evento py-5">
+            <h1 class=" title-separator">Sobre nós</h1>
 
             <div class="container">
 
                 <div class="row">
 
-                    <h1 class="mb-5">O Evento</h1>
+                    <div class="col-12 col-md-6 order-sm-2">
+
+                        <img src="./assets/img/us.png" alt="Foto do casal" class="couple-pic">
+
+                    </div>
+
+                    <div class="col-12 order-sm-3 col-md-6 d-flex flex-column justify-content-center">
+
+                        <p>Compartilhar a vida com quem amamos é uma dádiva. Em 2018 tivemos a sorte desse encontro,
+                            programado por algoritmos e pelo universo. E agora, exatos 4 anos depois resolvemos dar mais
+                            um passo juntos da nossa história de vida, parceria e amor, celebrando nossa união e
+                            agradecendo por esse encontro!</p>
+
+                        <p>Sejam bem-vindos a mais esse momento especial!</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="reserva " id="reserva">
+
+            <h1 class=" title-separator">Confirme sua presença</h1>
+
+            <div class="container">
+
+                <p>Gostariamos de confirmar sua presença! Se incomoda de perder 5 minutos ou menos preenchendo o
+                    formulário?</p>
+
+                <div class="row d-flex flex-md-column flex-lg-row justify-content-lg-between buttons">
+
+                        <a href="" class="btn btn-success"><i class="bi bi-calendar-check"></i>Confirmar Presença</a>
+
+                        <a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=Mzc1djY4dnZtYjNwM204dnFtbWs1dTd1bDggOWo5djgydGlkMWVuZWcwa3NlZTNuY3NzNDhAZw&tmsrc=9j9v82tid1eneg0ksee3ncss48%40group.calendar.google.com"
+                            class="btn btn-primary"><i class="bi bi-calendar-plus"></i>Adicionar ao Google
+                            Calendar</a>
+
+                        <a href="./myevents.ics" class="btn btn-primary"><i class="bi bi-calendar-plus"></i>Adicionar a
+                            Agenda do Telefone</a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="lista-de-casamento " id="lista-casamento">
+
+            <h1 class=" title-separator">Lista de casamento</h1>
+
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <p>Salve salve, quer dar um presente mas não sabe o que? Da uma olhadinha na nossa lista que
+                            preparamos na Amazon. Não se preocupe, seremos notificados quando algo for comprado para
+                            ficarmos atentos a entrega :)</p>
+                    </div>
+
+                    <div class="col-12 col-lg-6 d-flex flex-column align-items-center justify-content-center">
+                        <a href="https://www.amazon.com.br/hz/wishlist/ls/2JW76CXGU0X2D/ref=nav_wishlist_lists_2"
+                            class="btn btn-success" target="_blank"><i class="bi bi-cart3"></i>Acessar a lista de
+                            casamento</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="evento " id="evento">
+
+            <h1 class=" title-separator">O Evento</h1>
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-12 col-md-6 dados-evento">
+
+                        <p>O evento será no restaurante de culinária japonesa Tochan, localizado em Itaguaí próximo a
+                            UPA.</p>
+
+                        <a href="https://www.google.com/maps/dir//Tochan+Restaurante+R.+Nossa+Sra.+das+Gra%C3%A7as,+35+-+Calif%C3%B3rnia+Itagua%C3%AD+-+RJ+23811-310/@-22.8641229,-43.7657915,15z/data=!4m5!4m4!1m0!1m2!1m1!1s0x9bf94c44fce3cd:0xb4f8943bee51cf6"
+                            class="btn btn-success"><i class="bi bi-geo-alt"></i>Abrir no Google Maps</a>
+
+                    </div>
 
                     <div class="col-12 col-md-6">
-    
-                        <p>O evento será no restaurante de culinária japonesa Tochan, localizado em Itaguaí próximo a UPA.</p>
-    
-                        <a href="https://www.google.com/maps/dir//Tochan+Restaurante+R.+Nossa+Sra.+das+Gra%C3%A7as,+35+-+Calif%C3%B3rnia+Itagua%C3%AD+-+RJ+23811-310/@-22.8641229,-43.7657915,15z/data=!4m5!4m4!1m0!1m2!1m1!1s0x9bf94c44fce3cd:0xb4f8943bee51cf6" class="btn btn-success">Abrir no Google Maps</a>
-    
-                    </div>
-    
-                    <div class="col-12 col-md-6">
-    
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8017.7530606712235!2d-43.77204681190881!3d-22.8706982602588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb4f8943bee51cf6!2sTochan%20Restaurante!5e0!3m2!1spt-BR!2sbr!4v1644546281015!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" class="map"></iframe>
-    
+
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8017.7530606712235!2d-43.77204681190881!3d-22.8706982602588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb4f8943bee51cf6!2sTochan%20Restaurante!5e0!3m2!1spt-BR!2sbr!4v1644546281015!5m2!1spt-BR!2sbr"
+                            allowfullscreen="" loading="lazy" class="map"></iframe>
+
                     </div>
 
                 </div>
@@ -150,9 +185,10 @@
 
         <footer>
             <div class="container text-center p-3">
-                Todos os direitos reservados aos noivos. Site desenvolvido com 
+                Todos os direitos reservados aos noivos. Site desenvolvido com
             </div>
         </footer>
     </main>
 </body>
+
 </html>

@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap');
 
 body{
+    font-family: 'Poppins', sans-serif;
     background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)),
-    url('../img/eucalyptus.png'),
+    url('../img/eucalyptus2.png'),
     linear-gradient(rgba(255, 255, 255, .95), rgba(255, 255, 255, .95)),
     url('../img/bg.jpg');
     background-position: center, right top, center, center;
@@ -10,10 +11,60 @@ body{
     background-repeat: no-repeat;
 }
 
-h1{
+section{
+    padding: 40px 0;
+}
+
+.bi{
+    margin-right: 10px;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    .navbar-brand{
+        font-family: 'Playfair Display', serif;
+    }
+    .navbar-collapse{
+        flex-grow:0;
+
+        .navbar-nav{
+            gap: 20px;
+        }
+    }
+}
+
+.btn{
+    width: fit-content;
+}
+
+.title-separator{
     font-family: 'Playfair Display';
     font-size: 3rem;
     color: #36542b;
+    text-align: center;
+    margin-bottom: 40px;
+
+    &::before,
+    &::after {
+        content: '';
+        display: inline-block;
+        height: 2px;
+        width: 30vw;
+        position: relative;
+        bottom: 15px;
+    }
+
+    &::before {
+        background: linear-gradient(to right, rgba(240,240,240,0), #36542b);
+        margin-right: 4vh;
+    }
+
+    &::after {
+    background: linear-gradient(to left, rgba(240,240,240,0), #36542b);
+    margin-left: 4vh;
+    } 
 }
 
 .e-comercial{
@@ -22,6 +73,11 @@ h1{
 
 .intro{
     height:100vh;
+    h1{
+        font-family: 'Playfair Display';
+        font-size: 3rem;
+        color: #36542b;
+    }
 }
 
 .couple-pic{
@@ -36,4 +92,64 @@ h1{
 footer{
     background-color: #36542b;
     color:rgba(255, 255, 255, .95)
+}
+
+@media (max-width: 992px) {
+
+    section{
+        padding: 20px 0;
+    }
+
+    .title-separator{
+        font-size: 1.8rem;
+        text-align: center;
+        margin-bottom: 20px;
+    
+        &::before,
+        &::after {
+            content: '';
+            display: inline-block;
+            height: 2px;
+            width: 5vw;
+            position: relative;
+            bottom: 10px;
+        }
+    
+        &::before {
+            margin-right: 10px;
+        }
+    
+        &::after { 
+            margin-left: 10px;
+        } 
+    }
+
+    .about-us{
+        img{
+            margin-bottom: 20px;
+        }
+    }
+
+    .reserva{
+
+        .buttons{
+            gap:10px;
+            a{
+                display: block;
+                width:310px;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    .evento{
+        .dados-evento{
+            margin-bottom: 20px;
+
+            a{
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
 }
