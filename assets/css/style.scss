@@ -28,11 +28,14 @@ section{
     }
     .navbar-collapse{
         flex-grow:0;
-
         .navbar-nav{
             gap: 20px;
         }
     }
+}
+
+.bg-green{
+    background-color:#36542b; 
 }
 
 .btn{

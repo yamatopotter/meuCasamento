@@ -36,6 +36,10 @@ section {
   gap: 20px;
 }
 
+.bg-green {
+  background-color: #36542b;
+}
+
 .btn {
   width: -webkit-fit-content;
   width: -moz-fit-content;
