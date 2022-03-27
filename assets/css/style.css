@@ -94,6 +94,39 @@ section {
   height: 350px;
 }
 
+.reserva .title-attention {
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.reserva .calendar {
+  width: 250px;
+  display: block;
+  margin: 0 auto;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.reserva .calendar .day {
+  display: block;
+  border-radius: 15px 15px 0 0;
+  font-size: 8rem;
+  background-color: #36542b;
+  color: #efefef;
+  text-align: center;
+}
+
+.reserva .calendar .month {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  background-color: #efefef;
+  display: block;
+  text-align: center;
+}
+
 footer {
   background-color: #36542b;
   color: rgba(255, 255, 255, 0.95);
@@ -124,6 +157,9 @@ footer {
   }
   .about-us img {
     margin-bottom: 20px;
+  }
+  .reserva .date {
+    margin-top: 20px;
   }
   .reserva .buttons {
     gap: 10px;
