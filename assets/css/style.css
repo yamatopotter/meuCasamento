@@ -60,7 +60,7 @@ section {
   content: '';
   display: inline-block;
   height: 2px;
-  width: 30vw;
+  width: 20vw;
   position: relative;
   bottom: 15px;
 }
@@ -106,6 +106,14 @@ section {
   display: block;
   text-transform: uppercase;
   font-size: 2rem;
+}
+
+.reserva .buttons {
+  gap: 10px;
+}
+
+.reserva .buttons a {
+  width: 310px;
 }
 
 .reserva .calendar {

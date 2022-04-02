@@ -55,7 +55,7 @@ section{
         content: '';
         display: inline-block;
         height: 2px;
-        width: 30vw;
+        width: 20vw;
         position: relative;
         bottom: 15px;
     }
@@ -103,6 +103,12 @@ section{
         font-size: 2rem;
     }
 
+    .buttons{
+        gap:10px;
+        a{
+            width:310px;
+        }
+    }
 
     .calendar{
         width: 250px;
