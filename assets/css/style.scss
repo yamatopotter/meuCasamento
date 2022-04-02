@@ -135,7 +135,11 @@ section{
 
 footer{
     background-color: #36542b;
-    color:rgba(255, 255, 255, .95)
+    color:rgba(255, 255, 255, .95);
+    .bi{
+        padding: 0 5px;
+        margin-right: 0;
+    }
 }
 
 @media (max-width: 992px) {

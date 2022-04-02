@@ -146,6 +146,11 @@ footer {
   color: rgba(255, 255, 255, 0.95);
 }
 
+footer .bi {
+  padding: 0 5px;
+  margin-right: 0;
+}
+
 @media (max-width: 992px) {
   section {
     padding: 20px 0;
